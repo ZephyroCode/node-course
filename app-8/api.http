@@ -1,0 +1,32 @@
+### Obtener información de la ruta principal
+GET http://localhost:1357/
+
+### Obtener información de Cynna
+GET http://localhost:1357/cynna
+
+### Obtener información de Elizabeth
+GET http://localhost:1357/elizabeth
+
+### Obtener información de Alice
+GET http://localhost:1357/alice
+
+### Obtener información de Alex
+GET http://localhost:1357/alex
+
+### Obtener información de Chloe
+GET http://localhost:1357/chloe
+
+### Obtener información de Sara
+GET http://localhost:1357/Sara
+
+### Añadir un nuevo alter
+POST http://localhost:1357/add
+Content-Type: application/json
+
+{
+  "name": "Wind",
+  "surname": "Zephyr",
+  "age": 35,
+  "role": "Protector",
+  "status": "Dead"
+}
